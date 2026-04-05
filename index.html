@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="bg-ornament bg-ornament-1" aria-hidden="true"></div>
+  <div class="bg-ornament bg-ornament-2" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">Sharvari's Portfolio</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="siteNav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">2nd Year IT Engineering Student</p>
+        <h1>I build practical and creative web projects while learning every day.</h1>
+        <p class="hero-text">
+          I am currently pursuing Information Technology Engineering and focusing on frontend development, problem
+          solving, and project-based learning. This portfolio highlights my growth, skills, and student work.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Student Projects</a>
+          <a href="#contact" class="btn btn-ghost">Connect with me</a>
+        </div>
+
+        <div class="hero-tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>IT Engineering</span>
+        </div>
+      </div>
+
+      <aside class="hero-card reveal">
+        <div class="profile-wrap">
+          <figure class="profile-image-wrap">
+            <img src="./assets/images/profile.jpg" alt="Sharvari profile photo" />
+          </figure>
+          <div class="profile-content">
+            <p class="card-label">Student Bio</p>
+            <h2>Sharvari Chavan</h2>
+            <p>I’m a passionate developer focused on building practical, real-world solutions. With experience in full-stack development and an interest in AI systems, I enjoy turning complex ideas into clean, efficient applications.
+I work across web technologies, databases, and emerging tools, always aiming to create solutions that are both functional and meaningful. I’m constantly learning and exploring new technologies to push my skills further.</p>
+          </div>
+        </div>
+
+        <div class="stats">
+          <article>
+            <h3>2nd Yr</h3>
+            <p>IT Engineering</p>
+          </article>
+          <article>
+            <h3>8+</h3>
+            <p>Student projects</p>
+          </article>
+          <article>
+            <h3>Daily</h3>
+            <p>Learning mindset</p>
+          </article>
+        </div>
+      </aside>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-head reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>IT undergraduate focused on building strong development fundamentals</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card reveal">
+          <h3>Student Journey</h3>
+          <p>I am a second-year Information Technology Engineering student exploring web development and software basics through hands-on work.</p>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Technical Interests</h3>
+          <p>I enjoy frontend development, data structures, and understanding how real-world applications are designed and maintained.</p>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Career Goal</h3>
+          <p>My goal is to become a dependable software engineer by combining strong coding practices with clear and user-friendly interfaces.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-head reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Core skills I am developing during my IT engineering program</h2>
+      </div>
+
+      <p class="skills-intro reveal">
+        Focused on building strong fundamentals in frontend, problem solving, and scalable application design.
+      </p>
+
+      <div class="skills-tag-grid">
+        <article class="skills-tag-card reveal">
+          <h3>Frontend Development</h3>
+          <div class="skill-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript (ES6+)</span>
+            <span>Responsive Design</span>
+            <span>UI/UX Fundamentals</span>
+          </div>
+        </article>
+
+        <article class="skills-tag-card reveal">
+          <h3>Programming & Problem Solving</h3>
+          <div class="skill-tags">
+            <span>Data Structures</span>
+            <span>Algorithms</span>
+            <span>Problem Solving</span>
+            <span>OOP</span>
+            <span>Logic Building</span>
+          </div>
+        </article>
+
+        <article class="skills-tag-card reveal">
+          <h3>Databases & Backend Basics</h3>
+          <div class="skill-tags">
+            <span>MySQL</span>
+            <span>SQL</span>
+            <span>Database Design</span>
+            <span>Query Writing</span>
+            <span>Backend Basics</span>
+          </div>
+        </article>
+
+        <article class="skills-tag-card skills-tag-card-edge reveal">
+          <h3>Emerging & Advanced Interests</h3>
+          <div class="skill-tags">
+            <span>Multi-Agent AI Systems</span>
+            <span>AI/ML Fundamentals</span>
+            <span>System Design Basics</span>
+            <span>Digital Marketing</span>
+          </div>
+        </article>
+
+        <article class="skills-tag-card reveal">
+          <h3>Tools & Technologies</h3>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>Chrome DevTools</span>
+            <span>Figma</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-head reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Academic and personal projects from my learning journey</h2>
+      </div>
+
+      <div class="filters reveal" id="filterButtons">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="web">Web Dev</button>
+        <button data-filter="ui">UI/UX</button>
+        <button data-filter="app">Mini Apps</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card reveal" data-category="web">
+          <figure class="project-thumb">
+            <img src="./assets/images/projects/project-1.png" alt="College club website landing page UI" />
+          </figure>
+          <h3>College Club Website</h3>
+          <p>Designed and developed a responsive landing page for a student technical club.</p>
+        </article>
+
+        <article class="project-card reveal" data-category="ui">
+          <figure class="project-thumb">
+            <img src="./assets/images/projects/project-2.png" alt="UI component library screen" />
+          </figure>
+          <h3>UI Component Practice</h3>
+          <p>Built reusable cards, buttons, and layout patterns to improve design consistency.</p>
+        </article>
+
+        <article class="project-card reveal" data-category="app">
+          <figure class="project-thumb">
+            <img src="./assets/images/projects/project-3.png" alt="Student task tracker app screen" />
+          </figure>
+          <h3>Student Task Tracker</h3>
+          <p>A lightweight planner app for assignments and deadlines using vanilla JavaScript.</p>
+        </article>
+
+        <article class="project-card reveal" data-category="web">
+          <figure class="project-thumb">
+            <img src="./assets/images/projects/project-4.png" alt="Personal portfolio website screen" />
+          </figure>
+          <h3>Personal Portfolio V2</h3>
+          <p>Redesigned my portfolio to showcase skills, progress, and project experience clearly.</p>
+        </article>
+
+        <article class="project-card reveal" data-category="ui">
+          <figure class="project-thumb">
+            <img src="./assets/images/projects/project-5.png" alt="Attendance dashboard analytics screen" />
+          </figure>
+          <h3>Attendance Dashboard UI</h3>
+          <p>Interface concept to visualize attendance and academic performance in one place.</p>
+        </article>
+
+        <article class="project-card reveal" data-category="app">
+          <figure class="project-thumb">
+            <img src="./assets/images/projects/project-6.png" alt="Campus event explorer app screen" />
+          </figure>
+          <h3>Campus Event Explorer</h3>
+          <p>Mini app concept for students to discover and filter college events quickly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-head reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Open to internships, collaborations, and student tech opportunities</h2>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="input-grid">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+        </div>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="6" placeholder="Share internship roles, project ideas, or collaboration details" required></textarea>
+        </label>
+
+        <div class="form-row">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note" id="formNote">I usually respond within 24 hours.</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-title">Let's Connect</p>
+    <div class="footer-links">
+      <a class="footer-link linkedin" href="https://www.linkedin.com/in/sharvari-chavan-36a6a2330" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="footer-link github" href="https://github.com/Sharvari2410" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="footer-link email" href="mailto:sharvari2421@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
+
+
